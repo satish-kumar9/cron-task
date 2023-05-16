@@ -1,0 +1,18 @@
+Exercise Crontab Entries : 
+1) April 5th Midnight 
+0 0 5 4 *
+
+2) 5 th of Every November,Jan,June if it is a Thursday.
+* * 5 1,6,11 4
+
+3) At 05 and 27th minutes of 9,10,11 hours everyday. 
+5,27 9,10,11 * * 0-6
+
+4) 15th second of 34 min. of 9th hour on 15th Aug.
+34 9 15 8 *
+
+5) Every midnight
+0 0 * * *
+
+6) Every Weekend ( Saturday night 11.59 )
+59 1 * * 6,7
